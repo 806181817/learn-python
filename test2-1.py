@@ -1,19 +1,17 @@
- #-*- coding:utf-8 -*-
+#-*- coding:utf-8 -*- 
+ 
+ 
+######学生基本信息############ 
+#姓名： 赵岩
+#学号： 1403050227
+#班级： 通风14-2班
 
-######学生基本信息
-#姓名：赵岩
-#学号：1403050227
-#班级：通风14-2班
-
-###########题目###############
+#物理题：17.28 
+###########题目############### 
 import math
 
-a = float(raw_input('Input a: '))
-b = float(raw_input('Input a: '))
-c = float(raw_input('Input a: '))
-
-root = math.sqrt(b ** 2 - 4 * a * c)
-s1 = (-b + root) / (2 * a)
-s2 = (-b + root) / (2 * a)
-
-print 'The solutions are:', s1, s2
+i0=float(10.0)
+def function1(i):
+    i=float(i*math.cos(math.radians(30))**2)
+	return i
+print 'The solution is:'+str(function1(function1(function1(0.5*i0)))/float(0.5*i0)
